@@ -1,5 +1,6 @@
+//* GLOBAL MIDDLEWARE
 const express = require('expresss')
-const helment = require('helmet')
+const helmet = require('helmet')
 const cors = require('cors')
 
 module.exports = server => {
